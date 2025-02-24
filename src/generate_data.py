@@ -10,7 +10,7 @@ types = ['rectangle', 'circle']
 
 print("Filling the database with data...")
 
-for _ in tqdm(range(10000000)):  # 1 million records
+for _ in tqdm(range(10000000)):  # 10 million records
     figure_type = random.choice(types)
     color = random.choice(colors)
     
